@@ -40,7 +40,7 @@ variables:
       vcnId: ${vcn_id}
  
   container_instance:
-    type: map
+    type: json
     title: Container Instance definition
     description: Container Instance definition
     required: true
